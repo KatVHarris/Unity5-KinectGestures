@@ -43,6 +43,7 @@ public class KinectManager : MonoBehaviour
     {
         turnScript = Player.GetComponent<Turning>();
         // get the sensor object
+        
         this.kinectSensor = KinectSensor.GetDefault();
 
         if (this.kinectSensor != null)
@@ -74,6 +75,10 @@ public class KinectManager : MonoBehaviour
 
             // start getting data from runtime
             this.kinectSensor.Open();
+        }
+        else
+        {
+            //kinect sensor not connected
         }
     }
 
