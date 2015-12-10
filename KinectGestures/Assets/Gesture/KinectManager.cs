@@ -13,8 +13,6 @@ public class KinectManager : MonoBehaviour
     public Text ConfidenceTextGameObject;
     public GameObject Player;
     private Turning turnScript; 
-    // material to copy color frame to
-    public Material Material;
 
     // Kinect 
     private KinectSensor kinectSensor;
