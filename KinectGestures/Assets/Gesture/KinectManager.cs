@@ -13,8 +13,6 @@ public class KinectManager : MonoBehaviour
     public Text ConfidenceTextGameObject;
     public GameObject Player;
     private Turning turnScript; 
-    // material to copy color frame to
-    public Material Material;
 
     // Kinect 
     private KinectSensor kinectSensor;
@@ -43,6 +41,7 @@ public class KinectManager : MonoBehaviour
     {
         turnScript = Player.GetComponent<Turning>();
         // get the sensor object
+        
         this.kinectSensor = KinectSensor.GetDefault();
 
         if (this.kinectSensor != null)
@@ -74,6 +73,10 @@ public class KinectManager : MonoBehaviour
 
             // start getting data from runtime
             this.kinectSensor.Open();
+        }
+        else
+        {
+            //kinect sensor not connected
         }
     }
 

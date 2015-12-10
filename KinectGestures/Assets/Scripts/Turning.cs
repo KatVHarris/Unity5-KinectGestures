@@ -10,6 +10,33 @@ public class Turning : MonoBehaviour {
 	void Start () {
 	
 	}
+    //void Update()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.A))
+    //    {
+    //        if (turnRight)
+    //        {
+    //            turnRight = false;
+    //            turnLeft = true;
+    //        }
+    //        else
+    //        {
+    //            turnLeft = true;
+    //        }
+    //    }
+    //    if (Input.GetKeyDown(KeyCode.D))
+    //    {
+    //        if (turnLeft)
+    //        {
+    //            turnLeft = false;
+    //            turnRight = true;
+    //        }
+    //        else
+    //        {
+    //            turnRight = true;
+    //        }
+    //    }
+    //}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
