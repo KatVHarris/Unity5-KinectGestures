@@ -14,5 +14,5 @@ This project builds off the Microsoft plugin examples as well as Carmine Si's ex
 
 I added step by step instructions and explination about how and why the code works and how to modify for your needs. 
 
-If you have questions about it tweet me @KatVHarris
+If you have questions about it tweet me [@KatVHarris](http://twitter.com/katvharris)
 
