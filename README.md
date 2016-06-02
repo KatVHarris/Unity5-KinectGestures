@@ -3,7 +3,7 @@ How to build Kinect v2 Gestures in your Unity 5 game
 
 ### Before you Begin
 If you want to get start working with the kinect, follow the instructions in this link:
-http://bit.ly/UnityKinect
+http://bit.ly/Unity-Kinect
 
 
 This project builds off the Microsoft plugin examples as well as Carmine Si's examples:
